@@ -1,0 +1,1 @@
+languageCode = "en-us"title = "QuantumPT Official Documentation"baseurl = "https://quantumprayertimes.github.io/documentation"theme = "hugo-theme-learn"[params]    author = "Sid-Ali TEIR"    description = "QuantumPT Official Documentation"    showVisitedLinks = false
