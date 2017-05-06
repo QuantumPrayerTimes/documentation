@@ -34,6 +34,22 @@
   </url>
   
   <url>
+    <loc>https://quantumprayertimes.github.io/documentation/release/</loc>
+  </url>
+  
+  <url>
+    <loc>https://quantumprayertimes.github.io/documentation/release/release-notes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://quantumprayertimes.github.io/documentation/release/changelog/</loc>
+  </url>
+  
+  <url>
+    <loc>https://quantumprayertimes.github.io/documentation/release/license/</loc>
+  </url>
+  
+  <url>
     <loc>https://quantumprayertimes.github.io/documentation/categories/</loc>
     <priority>0</priority>
   </url>
@@ -54,6 +70,11 @@
   
   <url>
     <loc>https://quantumprayertimes.github.io/documentation/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://quantumprayertimes.github.io/documentation/release/</loc>
     <priority>0</priority>
   </url>
   

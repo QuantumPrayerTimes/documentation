@@ -82,7 +82,10 @@ A detailed tutorial will be available soon..
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://quantumprayertimes.github.io/documentation/getting-started/getting-help/</guid>
-      <description>Coming soon..</description>
+      <description>Report bugs or ask a question If you encounter a bug or an issue, you can send an email to quantumprayertimes@gmail.com
+For developers only, you can use GitHub to submit an issue or a pull request
+Please, make sure to mention the context of the issue and the steps needed to reproduce the bug !
+ Pull requests For developers, you can use GitHub to submit a pull request</description>
     </item>
     
   </channel>

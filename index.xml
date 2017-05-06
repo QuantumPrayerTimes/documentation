@@ -73,7 +73,10 @@ A detailed tutorial will be available soon..
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://quantumprayertimes.github.io/documentation/getting-started/getting-help/</guid>
-      <description>Coming soon..</description>
+      <description>Report bugs or ask a question If you encounter a bug or an issue, you can send an email to quantumprayertimes@gmail.com
+For developers only, you can use GitHub to submit an issue or a pull request
+Please, make sure to mention the context of the issue and the steps needed to reproduce the bug !
+ Pull requests For developers, you can use GitHub to submit a pull request</description>
     </item>
     
     <item>
@@ -92,6 +95,45 @@ A detailed tutorial will be available soon..
       
       <guid>https://quantumprayertimes.github.io/documentation/developer/architecture/</guid>
       <description>Coming soon..</description>
+    </item>
+    
+    <item>
+      <title>Release Information</title>
+      <link>https://quantumprayertimes.github.io/documentation/release/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://quantumprayertimes.github.io/documentation/release/</guid>
+      <description>Release Information Learn more about this release of QuantumPT</description>
+    </item>
+    
+    <item>
+      <title>Release Notes &amp; Issues</title>
+      <link>https://quantumprayertimes.github.io/documentation/release/release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://quantumprayertimes.github.io/documentation/release/release-notes/</guid>
+      <description>Coming soon..</description>
+    </item>
+    
+    <item>
+      <title>Changelog</title>
+      <link>https://quantumprayertimes.github.io/documentation/release/changelog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://quantumprayertimes.github.io/documentation/release/changelog/</guid>
+      <description>Current release v0.0.1
+ v0.0.1 Initial release.
+For initial features, refer to documentation</description>
+    </item>
+    
+    <item>
+      <title>Licenses</title>
+      <link>https://quantumprayertimes.github.io/documentation/release/license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://quantumprayertimes.github.io/documentation/release/license/</guid>
+      <description>QuantumPT - Open Source Portable Islamic prayer times reminder.
+GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007 Copyright (C) 2007 Free Software Foundation, Inc. &amp;lt;http://fsf.org/&amp;gt; Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed. Preamble The GNU General Public License is a free, copyleft license for software and other kinds of works. The licenses for most software and other practical works are designed to take away your freedom to share and change the works.</description>
     </item>
     
     <item>
