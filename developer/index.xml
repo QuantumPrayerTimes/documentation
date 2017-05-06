@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Developers on QuantumPT Official Documentation</title>
+    <link>https://quantumprayertimes.github.io/documentation/developer/</link>
+    <description>Recent content in Developers on QuantumPT Official Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://quantumprayertimes.github.io/documentation/developer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Developer</title>
+      <link>https://quantumprayertimes.github.io/documentation/developer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://quantumprayertimes.github.io/documentation/developer/</guid>
+      <description>Developer This section is reserved to programers and helps me keep track of my software design.</description>
+    </item>
+    
+    <item>
+      <title>Architecture</title>
+      <link>https://quantumprayertimes.github.io/documentation/developer/architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://quantumprayertimes.github.io/documentation/developer/architecture/</guid>
+      <description>Coming soon..</description>
+    </item>
+    
+  </channel>
+</rss>

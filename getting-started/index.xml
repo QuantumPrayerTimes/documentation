@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Getting-starteds on QuantumPT Official Documentation</title>
+    <link>https://quantumprayertimes.github.io/documentation/getting-started/</link>
+    <description>Recent content in Getting-starteds on QuantumPT Official Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://quantumprayertimes.github.io/documentation/getting-started/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Getting started</title>
+      <link>https://quantumprayertimes.github.io/documentation/getting-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://quantumprayertimes.github.io/documentation/getting-started/</guid>
+      <description>Getting started The simplest way to navigate the documentation is to use the Next and Previous arrows (&amp;lt; &amp;gt;) on each page.</description>
+    </item>
+    
+    <item>
+      <title>What is QuantumPT ?</title>
+      <link>https://quantumprayertimes.github.io/documentation/getting-started/what-is-quantumpt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://quantumprayertimes.github.io/documentation/getting-started/what-is-quantumpt/</guid>
+      <description>QuantumPT (QuantumPrayerTimes) is an application developped from scratch using PyQt5 and Python 3.
+ Why QuantumPT ? This application is aimed to provide an offline (without internet connexion) prayer times calculator and reminders (Athans).
+Multiple applications exist with the same purpose so why developing another one ?
+I wanted to create a complete free, open-source, fully portable and good looking application.
+ Why 90% of the muslim desktop applications always looks like old application based on Windows XP (even Windows 2000) skin-like.</description>
+    </item>
+    
+    <item>
+      <title>Requirements</title>
+      <link>https://quantumprayertimes.github.io/documentation/getting-started/requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://quantumprayertimes.github.io/documentation/getting-started/requirements/</guid>
+      <description>The application has been tested on Windows 7 only but it is expected to work on Windows 8, Windows 8.1 and Windows 10.
+ Windows The application should work without any dependencies, tested on a fresh Windows 7 installation.
+You may need to run the application with administrator privileges.
+  Windows 7 (x64 or x86) (optional) vcredist  Linux Not yet developed..
+Mac Not yet developed..</description>
+    </item>
+    
+    <item>
+      <title>Installation</title>
+      <link>https://quantumprayertimes.github.io/documentation/getting-started/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://quantumprayertimes.github.io/documentation/getting-started/installation/</guid>
+      <description> Windows Run the installer and follow the instructions, it is pretty straight forward.
+A detailed tutorial will be available soon..
+ </description>
+    </item>
+    
+    <item>
+      <title>First time configuration</title>
+      <link>https://quantumprayertimes.github.io/documentation/getting-started/first-run/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://quantumprayertimes.github.io/documentation/getting-started/first-run/</guid>
+      <description>When running the first time the application, you will have to configure it. For this purpose, a wizard is runned.
+ Step 1 At this point the location should be automatically determined. If you are satisfied with the location, you can press Nextand skip to Step 3. If you think that the location is incorrect, you can continue with Step 2.
+ Step 2 First, if the problem comes from you internet connection, you can retry to reconnect in order to retrive the location from internet.</description>
+    </item>
+    
+    <item>
+      <title>Configuration</title>
+      <link>https://quantumprayertimes.github.io/documentation/getting-started/configuration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://quantumprayertimes.github.io/documentation/getting-started/configuration/</guid>
+      <description>Coming soon..</description>
+    </item>
+    
+    <item>
+      <title>Getting Help</title>
+      <link>https://quantumprayertimes.github.io/documentation/getting-started/getting-help/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://quantumprayertimes.github.io/documentation/getting-started/getting-help/</guid>
+      <description>Coming soon..</description>
+    </item>
+    
+  </channel>
+</rss>
