@@ -1,5 +1,6 @@
 ---
 title: Developer
+prev: /getting-started/getting-help
 next: /developer/architecture
 chapter: true
 weight: 50

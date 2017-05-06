@@ -1,7 +1,7 @@
 ---
 title: Architecture
 prev: /developer
-next: 
+next: /release
 weight: 55
 toc: true
 ---
