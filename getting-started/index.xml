@@ -33,12 +33,22 @@ I wanted to create a complete free, open-source, fully portable and good looking
     </item>
     
     <item>
+      <title>Screenshots</title>
+      <link>https://quantumprayertimes.github.io/documentation/getting-started/screenshots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://quantumprayertimes.github.io/documentation/getting-started/screenshots/</guid>
+      <description>In this page you will find screenshots to convince you to use the application 
+                          </description>
+    </item>
+    
+    <item>
       <title>Requirements</title>
       <link>https://quantumprayertimes.github.io/documentation/getting-started/requirements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://quantumprayertimes.github.io/documentation/getting-started/requirements/</guid>
-      <description>The application has been tested on Windows 7 only but it is expected to work on Windows 8, Windows 8.1 and Windows 10.
+      <description>The application has been tested on Windows 7 and Windows 10 but it is expected to work on Windows 8 and Windows 8.1.
  Windows The application should work without any dependencies, tested on a fresh Windows 7 installation.
 You may need to run the application with administrator privileges.
   Windows 7 (x64 or x86) (optional) vcredist  Linux Not yet developed..

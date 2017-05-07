@@ -28,5 +28,16 @@
       <description>Coming soon..</description>
     </item>
     
+    <item>
+      <title>Build QuantumPT</title>
+      <link>https://quantumprayertimes.github.io/documentation/developer/build-msvc2015/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://quantumprayertimes.github.io/documentation/developer/build-msvc2015/</guid>
+      <description>This page shows you how to build QuantumPT application from scratch on Windows 7 using pyqtdeploy.
+ Requirements ALL packages need to be installed for 32-bits, it will work even if you have a 64-bits system.
+  Windows 7 (x64 or x86) Python 3.6.x (any version should do it, e.g 3.6.1) Qt 5.8.0 for Windows 32-bit (VS 2015, 1.0 GB) Microsoft Visual Studio 2015 Community Edition sip 4.19.2 (source) PyQt 5.</description>
+    </item>
+    
   </channel>
 </rss>

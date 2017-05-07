@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="generator" content="Hugo 0.20.7" />
+    <meta name="description" content="QuantumPT Official Documentation">
+<meta name="author" content="Sid-Ali TEIR">
+
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+
+    
+    <title>Build QuantumPT</title>
+    <link href="https://quantumprayertimes.github.io/documentation/css/nucleus.css" rel="stylesheet">
+    <link href="https://quantumprayertimes.github.io/documentation/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://quantumprayertimes.github.io/documentation/css/hybrid.css" rel="stylesheet">
+    <link href="https://quantumprayertimes.github.io/documentation/css/featherlight.min.css" rel="stylesheet">
+    <link href="https://quantumprayertimes.github.io/documentation/css/perfect-scrollbar.min.css" rel="stylesheet">
+    <link href="https://quantumprayertimes.github.io/documentation/css/horsey.css" rel="stylesheet">
+    <link href="https://quantumprayertimes.github.io/documentation/css/theme.css" rel="stylesheet">
+    <link href="https://quantumprayertimes.github.io/documentation/css/hugo-theme.css" rel="stylesheet">
+    <script src="https://quantumprayertimes.github.io/documentation/js/jquery-2.x.min.js"></script>
+    <style type="text/css">:root #header + #content > #left > #rlblock_left
+    {display:none !important;}</style>
+    
+
+  </head>
+  <body class="" data-url="/documentation/developer/build-msvc2015/">
+    
+    <nav id="sidebar">
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="https://quantumprayertimes.github.io">
+    <p>QuantumPT Official Documentation</p>
+</a>
+
+    </div>
+    
+</div>
+
+
+  <div class="highlightable">
+    <ul class="topics">
+      
+        
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+          
+          
+            
+          
+        
+        
+        
+          
+        
+          
+        
+          
+        
+      
+      
+      
+      
+
+      
+      
+      
+        
+          
+          
+            
+          
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/documentation/getting-started/">
+        <a href="/documentation/getting-started/">
+          <span>
+            
+             Getting started
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+            <li class="dd-item " data-nav-id="/documentation/getting-started/what-is-quantumpt/">
+              <a href="/documentation/getting-started/what-is-quantumpt/">
+                <span>What is QuantumPT ?     </i></span>
+              </a>
+            </li>
+          
+            <li class="dd-item " data-nav-id="/documentation/getting-started/screenshots/">
+              <a href="/documentation/getting-started/screenshots/">
+                <span>Screenshots     </i></span>
+              </a>
+            </li>
+          
+            <li class="dd-item " data-nav-id="/documentation/getting-started/requirements/">
+              <a href="/documentation/getting-started/requirements/">
+                <span>Requirements     </i></span>
+              </a>
+            </li>
+          
+            <li class="dd-item " data-nav-id="/documentation/getting-started/installation/">
+              <a href="/documentation/getting-started/installation/">
+                <span>Installation     </i></span>
+              </a>
+            </li>
+          
+            <li class="dd-item " data-nav-id="/documentation/getting-started/first-run/">
+              <a href="/documentation/getting-started/first-run/">
+                <span>First time configuration     </i></span>
+              </a>
+            </li>
+          
+            <li class="dd-item " data-nav-id="/documentation/getting-started/configuration/">
+              <a href="/documentation/getting-started/configuration/">
+                <span>Configuration     </i></span>
+              </a>
+            </li>
+          
+            <li class="dd-item " data-nav-id="/documentation/getting-started/getting-help/">
+              <a href="/documentation/getting-started/getting-help/">
+                <span>Getting Help     </i></span>
+              </a>
+            </li>
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+
+      
+      
+      
+        
+          
+          
+            
+          
+        
+      
+      
+      
+
+      <li class="dd-item  parent" data-nav-id="/documentation/developer/">
+        <a href="/documentation/developer/">
+          <span>
+            
+             Developer
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+            <li class="dd-item " data-nav-id="/documentation/developer/architecture/">
+              <a href="/documentation/developer/architecture/">
+                <span>Architecture     </i></span>
+              </a>
+            </li>
+          
+            <li class="dd-item active" data-nav-id="/documentation/developer/build-msvc2015/">
+              <a href="/documentation/developer/build-msvc2015/">
+                <span>Build QuantumPT     </i></span>
+              </a>
+            </li>
+          
+        </ul>
+        
+      </li>
+      
+      
+      
+
+      
+      
+      
+        
+          
+          
+            
+          
+        
+      
+      
+      
+
+      <li class="dd-item  " data-nav-id="/documentation/release/">
+        <a href="/documentation/release/">
+          <span>
+            
+             Release Information
+            
+           </span>
+        </a>
+        
+        <ul>
+          
+            <li class="dd-item " data-nav-id="/documentation/release/release-notes/">
+              <a href="/documentation/release/release-notes/">
+                <span>Release Notes &amp; Issues     </i></span>
+              </a>
+            </li>
+          
+            <li class="dd-item " data-nav-id="/documentation/release/changelog/">
+              <a href="/documentation/release/changelog/">
+                <span>Changelog     </i></span>
+              </a>
+            </li>
+          
+            <li class="dd-item " data-nav-id="/documentation/release/license/">
+              <a href="/documentation/release/license/">
+                <span>Licenses     </i></span>
+              </a>
+            </li>
+          
+        </ul>
+        
+      </li>
+      
+      
+    </ul>
+    <hr>
+     
+    <section id="footer">
+      <p>Built with <a href="https://gohugo.io/">Hugo</a> using <a href="https://github.com/matcornic/hugo-theme-learn">Learn</a></p>
+
+    </section>
+  </div>
+</nav>
+
+        <section id="body">
+        <div id="overlay"></div>
+
+        <div class="padding highlightable">
+
+            <div id="top-bar">
+              
+                
+                
+                
+              <div id="top-github-link">
+                  <a class="github-link" href="https://github.com/QuantumPrayerTimes/documentation/tree/master/content/developer/build-msvc2015/index.md" target="blank">
+                    <i class="fa fa-code-fork"></i>
+                    Edit this page
+                  </a>
+              </div>
+                
+              
+              <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                  <span id="sidebar-toggle-span">
+                      <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                        <i class="fa fa-bars"></i>
+                      </a>
+                  </span>
+                
+                <span id="toc-menu"><a href=""><i class="fa fa-list-alt"></i></a></span>
+                
+                
+                  
+                  
+                  
+                    
+                    
+                <a href="/documentation/developer/" itemprop="url"><span itemprop="title">Developer</span></a> <i class="fa fa-angle-right"></i>
+                    
+                  
+                
+                <span itemprop="title"> Build QuantumPT</span>
+              </div>
+              
+                  <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#requirements">Requirements</a></li>
+<li><a href="#installation">Installation</a>
+<ul>
+<li><a href="#python-3-6-x">Python 3.6.x</a></li>
+<li><a href="#qt-5-8-0">Qt 5.8.0</a></li>
+<li><a href="#microsoft-visual-studio-2015">Microsoft Visual Studio 2015</a></li>
+</ul></li>
+<li><a href="#compilation">Compilation</a>
+<ul>
+<li><a href="#compilation-sip">[Compilation] sip</a></li>
+<li><a href="#compilation-pyqt5">[Compilation] PyQt5</a></li>
+</ul></li>
+<li><a href="#build">Build</a></li>
+<li><a href="#packaging">Packaging</a></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+              
+
+            </div>
+            
+              <div id="body-inner">
+                
+                <h1>Build QuantumPT</h1>
+                
+
+
+
+<div class="notices tip" ><p>This page shows you how to build <code>QuantumPT</code> application from scratch on Windows 7 using <code>pyqtdeploy</code>.</p>
+</div>
+
+
+<h2 id="requirements">Requirements</h2>
+
+<div class="notices note" ><p>ALL packages need to be installed for 32-bits, it will work even if you have a 64-bits system.</p>
+</div>
+
+
+<ul>
+<li>Windows 7 (x64 or x86)</li>
+<li><a href="https://www.python.org/ftp/python/3.6.1/python-3.6.1.exe">Python 3.6.x</a> (any version should do it, e.g 3.6.1)</li>
+<li><a href="http://download.qt.io/archive/qt/5.8/5.8.0/qt-opensource-windows-x86-msvc2015-5.8.0.exe">Qt 5.8.0 for Windows 32-bit (VS 2015, 1.0 GB)</a></li>
+<li><a href="https://github.com/QuantumPrayerTimes/documentation/files/985580/vs_community_ENU_2015.gz">Microsoft Visual Studio 2015 Community Edition</a></li>
+<li><a href="https://sourceforge.net/projects/pyqt/files/sip/sip-4.19.2/sip-4.19.2.zip">sip 4.19.2 (source)</a></li>
+<li><a href="https://sourceforge.net/projects/pyqt/files/PyQt5/PyQt-5.8.2/PyQt5_gpl-5.8.2.zip">PyQt 5.8.2 (source)</a></li>
+</ul>
+
+<div class="notices info" ><p>Make sure that the <code>Qt</code>, <code>PyQt5</code>, <code>Python</code> and <code>Microsoft Visual Studio</code> version match.
+This guide supposes you do not have a previous version of softwares installed.</p>
+</div>
+
+
+<h2 id="installation">Installation</h2>
+
+<h3 id="python-3-6-x">Python 3.6.x</h3>
+
+<p>The installation of <code>Python</code> is straight forward however you will need some modification to make task easier.</p>
+
+<ul>
+<li>Check <strong>Add Python 3.6 to PATH</strong> and modify the installation to path <code>C:\Python36\</code>
+<table border="0">
+<tr>
+    <td align="center" valign="center">
+        <p>Add Python 3.6 to PATH</p>
+        <img src="https://cloud.githubusercontent.com/assets/9877335/25791123/fd6bd334-3372-11e7-8fdf-9b94b8c8f622.png"/>
+    </td>
+    <td align="center" valign="center">
+        <p>Modify the installation to path</p>
+        <img src="https://cloud.githubusercontent.com/assets/9877335/25791122/fd6a8574-3372-11e7-9721-1851dd9bd66d.png"/>
+    </td>
+</tr>
+</table></li>
+</ul>
+
+<p>You will also need to install <code>Python</code> packages :</p>
+
+<div class="notices info" ><p>Before continuing the tutorial, make sure you are using Python 3.6.x version of python.
+To verify, run <code>python</code> command in a terminal and read the output, it should print the used Python version.</p>
+</div>
+
+
+<pre><code class="language-bash">python -m pip install &quot;APScheduler&gt;=3.3.1&quot; &quot;geoip2&gt;=2.4.2&quot; &quot;pytz&gt;=2017.2&quot; &quot;requests&gt;=2.13.0&quot; &quot;PyQt5&gt;=5.8.2&quot; &quot;appdirs&gt;=1.4.3&quot; &quot;packaging&gt;=16.8&quot; &quot;pyparsing&gt;=2.2.0&quot; &quot;pyqtdeploy&gt;=1.3.2&quot;
+</code></pre>
+
+<h3 id="qt-5-8-0">Qt 5.8.0</h3>
+
+<p>The installation of <code>Qt</code> is straight forward and does not need any particular settings (use the default settings <em>unless you know what you are doing</em>).</p>
+
+<ul>
+<li>Make sure to install Qt in the <code>C:\Qt\Qt5.8.0\</code> directory. This should be the default path.</li>
+</ul>
+
+<h3 id="microsoft-visual-studio-2015">Microsoft Visual Studio 2015</h3>
+
+<p>The installation of <code>Microsoft Visual Studio 2015</code> is a little bit different and needs more configuration.</p>
+
+<p><code>Common Tools C++ for Visual C++ 2015</code> feature needs to be enabled in order to compile correctly <code>PyQt</code> applications.</p>
+
+<p>When running the installer, make sure the feature is enabled :</p>
+
+<table border="0">
+    <tr>
+        <td align="center" valign="center">
+            <img src="https://cloud.githubusercontent.com/assets/9877335/25792905/50981cb0-337e-11e7-9593-88fcf0315a2c.png"/>
+        </td>
+        <td align="center" valign="center">
+            <img src="https://cloud.githubusercontent.com/assets/9877335/25792906/50ab6a54-337e-11e7-8d4b-a5286e334cdd.png"/>
+        </td>
+    </tr>
+</table>
+
+<h2 id="compilation">Compilation</h2>
+
+<p>In order to build QuantumPT, we need to compile <code>PyQt5</code> and <code>sip</code> from sources.</p>
+
+<p>After downloading sources from requirements, extract the archives in the same directory (easy for compilation)</p>
+
+<p>Let&rsquo;s create an environment to compile PyQt and SIP (<strong>in order to compile PyQt, we need first to compile sip</strong>)</p>
+
+<ul>
+<li>Create a folder &ldquo;compilation&rdquo; in your Desktop (for example)</li>
+<li>Extract the content of your sip archive in this forlder</li>
+<li>Extract the content of your PyQt5 archive in this forlder</li>
+</ul>
+
+<p>You should have now :</p>
+
+<pre><code class="language-bash">.
+└── compilation
+    ├── sip-4.19.2/
+    └── PyQt5_gpl-5.8.2/
+</code></pre>
+
+<h3 id="compilation-sip">[Compilation] sip</h3>
+
+<ul>
+<li>Open a terminal</li>
+<li>Navigate to <code>sip-4.19.2</code> directory</li>
+<li>Run :</li>
+</ul>
+
+<pre><code class="language-bash">python configure.py
+</code></pre>
+
+<p>At this step, you did not install <code>sip</code>, you only configured it (basically its installation dir, etc&hellip;)</p>
+
+<ul>
+<li><strong>VERY IMPORTANT STEP</strong> source your environment variables by running in the terminal :</li>
+</ul>
+
+<pre><code class="language-bash"># Keep the double quotes (Windows does not like spaces)
+&quot;C:\Qt\Qt5.8.0\5.8\msvc2015\bin\qtenv2.bat&quot;
+</code></pre>
+
+<p>After running this command, it automatically change your current directory.</p>
+
+<ul>
+<li><strong>Stay on the terminal</strong> and re-navigate to your <code>sip-4.19.2</code> directory and run:</li>
+</ul>
+
+<pre><code class="language-bash"># Keep the double quotes (Windows does not like spaces)
+&quot;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat&quot;
+</code></pre>
+
+<ul>
+<li><strong>(always in the same terminal)</strong> run :</li>
+</ul>
+
+<pre><code class="language-bash">nmake
+</code></pre>
+
+<ul>
+<li>Finally, run :</li>
+</ul>
+
+<pre><code class="language-bash">nmake install
+</code></pre>
+
+<h3 id="compilation-pyqt5">[Compilation] PyQt5</h3>
+
+<p>The steps are almost the same as sip but it will take more time.</p>
+
+<ul>
+<li>Open a terminal</li>
+<li>Navigate to <code>PyQt5_gpl-5.8.2</code> directory</li>
+<li>Run :</li>
+</ul>
+
+<pre><code class="language-bash">python configure.py --disable QtNfc --confirm-license
+</code></pre>
+
+<p>Note that this command disable QtNfs because of a compilation problem we could not resolve. It will also automatically accepts the license.</p>
+
+<ul>
+<li><strong>VERY IMPORTANT STEP</strong> source your environment variables by running in the terminal :</li>
+</ul>
+
+<pre><code class="language-bash"># Keep the double quotes (Windows does not like spaces)
+&quot;C:\Qt\Qt5.8.0\5.8\msvc2015\bin\qtenv2.bat&quot;
+</code></pre>
+
+<p>After running this command, it automatically change your current directory.</p>
+
+<ul>
+<li><strong>Stay on the terminal</strong> and re-navigate to your <code>PyQt5_gpl-5.8.2</code> directory and run:</li>
+</ul>
+
+<pre><code class="language-bash"># Keep the double quotes (Windows does not like spaces)
+&quot;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat&quot;
+</code></pre>
+
+<ul>
+<li><strong>(always in the same terminal)</strong> run :</li>
+</ul>
+
+<pre><code class="language-bash">nmake
+</code></pre>
+
+<div class="notices warning" ><p>Notice that we did not run the <code>nmake install</code> command for PyQt5, if you run the command, it will install the libraries
+in <code>C:\Python36</code> site-packages and replaces the <code>PyQt5</code> installed by <code>pip</code> so <code>PyQt5</code> modules will be broken.</p>
+</div>
+
+
+<h2 id="build">Build</h2>
+
+<ul>
+<li>Open a terminal</li>
+<li>Clone the <code>QuantumPT</code> repository in a specific folder</li>
+</ul>
+
+<pre><code class="language-bash">git clone https://github.com/QuantumPrayerTimes/quantumpt.git 
+</code></pre>
+
+<ul>
+<li><strong>VERY IMPORTANT STEP</strong> source your environment variables by running in the terminal :</li>
+</ul>
+
+<pre><code class="language-bash"># Keep the double quotes (Windows does not like spaces)
+&quot;C:\Qt\Qt5.8.0\5.8\msvc2015\bin\qtenv2.bat&quot;
+</code></pre>
+
+<p>After running this command, it automatically change your current directory.</p>
+
+<ul>
+<li><strong>Stay on the terminal</strong> and navigate to your <code>QuantumPT</code> directory that you cloned and run:</li>
+</ul>
+
+<pre><code class="language-bash"># Keep the double quotes (Windows does not like spaces)
+&quot;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat&quot;
+</code></pre>
+
+<ul>
+<li><strong>(always in the same terminal)</strong> run :</li>
+</ul>
+
+<pre><code class="language-bash">pyqtdeploy build.pdy
+</code></pre>
+
+<ul>
+<li>The <code>pyqtdeploy</code> application will open, navigate to the latest tab <code>Build</code>, check <code>Run qmake</code> and <code>Run make</code></li>
+<li>Build the application by clicking on the <code>Build</code> button</li>
+</ul>
+
+<p><img src="https://cloud.githubusercontent.com/assets/9877335/25792843/fad28ed2-337d-11e7-8aa1-52f3367cdecd.png" alt="2017-05-07_23-36-12" /></p>
+
+<p>The output will be located in <code>QuantumPT</code> directory under <code>build/release/</code></p>
+
+<h2 id="packaging">Packaging</h2>
+
+<div class="notices note" ><p>We will need to get some files now because the executable generated is not complete, it needs to be linked to some
+libraries.</p>
+</div>
+
+
+<ul>
+<li><p>Create a <code>custom-release</code> directory that will contain the builded release</p></li>
+
+<li><p>In the <code>build/release/</code> directory, copy the <code>QuantumPT.exe</code> binary to <code>custom-release</code> directory</p></li>
+
+<li><p>Navigate to <code>sip-4.19.2</code> directory</p></li>
+
+<li><p>Copy the following <code>sip</code> library to <code>custom-release</code> directory</p></li>
+</ul>
+
+<pre><code class="language-bash">sip-4.19.2\siplib\sip.pyd
+</code></pre>
+
+<ul>
+<li><p>Navigate to <code>PyQt5_gpl-5.8.2</code> directory</p></li>
+
+<li><p>Copy the following <code>Qt</code> libraries to <code>custom-release</code> directory</p></li>
+</ul>
+
+<pre><code class="language-bash">PyQt5_gpl-5.8.2\Qt\release\Qt.dll
+PyQt5_gpl-5.8.2\QtCore\release\QtCore.dll
+PyQt5_gpl-5.8.2\QtGui\release\QtGui.dll
+PyQt5_gpl-5.8.2\QtWidgets\release\QtWidgets.dll
+PyQt5_gpl-5.8.2\QtMultimedia\release\QtMultimedia.dll
+PyQt5_gpl-5.8.2\QtNetwork\release\QtNetwork.dll
+PyQt5_gpl-5.8.2\QtSql\release\QtSql.dll
+</code></pre>
+
+<ul>
+<li><p>Navigate to <code>C:\Python36</code> directory</p></li>
+
+<li><p>Copy the following <code>Python</code> system libraries to <code>custom-release</code> directory</p></li>
+</ul>
+
+<pre><code class="language-bash">C:\Python36\python3.dll
+C:\Python36\python36.dll
+</code></pre>
+
+<ul>
+<li>Copy the following <code>Python</code> libraries to <code>custom-release\lib</code> directory</li>
+</ul>
+
+<pre><code class="language-bash">C:\Python36\DLLs\_multiprocessing.pyd
+C:\Python36\DLLs\_socket.pyd
+C:\Python36\DLLs\pyexpat.pyd
+C:\Python36\DLLs\select.pyd
+C:\Python36\DLLs\unicodedata.pyd
+</code></pre>
+
+<ul>
+<li><p>Navigate to <code>C:\Qt\Qt5.8.0</code> directory</p></li>
+
+<li><p>Copy the following <code>Qt</code> libraries to <code>custom-release</code> directory</p></li>
+</ul>
+
+<pre><code class="language-bash">C:\Qt\Qt5.8.0\5.8\msvc2015\bin\Qt5Core.dll
+C:\Qt\Qt5.8.0\5.8\msvc2015\bin\Qt5Gui.dll
+C:\Qt\Qt5.8.0\5.8\msvc2015\bin\Qt5Widgets.dll
+C:\Qt\Qt5.8.0\5.8\msvc2015\bin\Qt5Multimedia.dll
+C:\Qt\Qt5.8.0\5.8\msvc2015\bin\Qt5Network.dll
+C:\Qt\Qt5.8.0\5.8\msvc2015\bin\Qt5Sql.dll
+</code></pre>
+
+<ul>
+<li>Copy the following <code>Qt</code> plugins to <code>custom-release</code> directory keeping the folders architecture</li>
+</ul>
+
+<pre><code class="language-bash">C:\Qt\Qt5.8.0\5.8\msvc2015\plugins\platforms\qwindows.dll
+C:\Qt\Qt5.8.0\5.8\msvc2015\plugins\mediaservice\dsengine.dll
+C:\Qt\Qt5.8.0\5.8\msvc2015\plugins\mediaservice\qtmedia_audioengine.dll
+C:\Qt\Qt5.8.0\5.8\msvc2015\plugins\mediaservice\wmfengine.dll
+C:\Qt\Qt5.8.0\5.8\msvc2015\plugins\sqldrivers\qsqlite.dll
+</code></pre>
+
+<ul>
+<li><p>Navigate to <code>QuantumPT</code> directory</p></li>
+
+<li><p>Copy the following resources to <code>custom-release</code> directory keeping the folders architecture</p></li>
+</ul>
+
+<pre><code class="language-bash">resources\database\database.db
+resources\database\ip_location.mmdb
+resources\multimedia\athans\*
+resources\multimedia\duas\*
+</code></pre>
+
+<ul>
+<li><p>Navigate to <code>Microsoft Visual Studio 2015</code> directory</p></li>
+
+<li><p>Copy the following <code>Microsoft Visual Studio 2015</code> libraries to <code>custom-release</code> directory</p></li>
+</ul>
+
+<pre><code class="language-bash">C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\redist\x86\Microsoft.VC140.CRT\msvcp140.dll
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\redist\x86\Microsoft.VC140.CRT\vcruntime140.dll
+</code></pre>
+
+<div class="notices tip" ><p>Finally, the build is complete and a new release has been generated.</p>
+</div>
+
+
+<p>The release architecture should looks like the following :</p>
+
+<pre><code class="language-bash">.
+├── lib
+|   ├── _multiprocessing.pyd
+|   ├── _socket.pyd
+|   ├── pyexpat.pyd
+|   ├── select.pyd
+|   └── unicodedata.pyd
+├── plugins
+|   ├── mediaservice
+|   |   ├── dsengine.dll
+|   |   ├── qtmedia_audioengine.dll
+|   |   └── wmfengine.dll
+|   ├── platforms
+|   |   └── qwindows.dll
+|   └── sqldrivers
+|       └── qsqlite.dll
+├── resources
+|   ├── database
+|   |   ├── database.db
+|   |   └── ip_location.mmdb
+|   └── multimedia
+|       ├── athans
+|       |   ├── athan_1.mp3
+|       |   └── [...]
+|       └── duas
+|           ├── doua_001.mp3
+|           └── [...]
+├── msvcp140.dll
+├── python3.dll
+├── python36.dll
+├── Qt.dll
+├── Qt5Core.dll
+├── Qt5Gui.dll
+├── Qt5Multimedia.dll
+├── Qt5Network.dll
+├── Qt5Sql.dll
+├── Qt5Widgets.dll
+├── QtCore.dll
+├── QtGui.dll
+├── QtMultimedia.dll
+├── QtNetwork.dll
+├── QtSql.dll
+├── QtWidgets.dll
+├── QuantumPT.exe
+├── vcruntime140.dll
+└── sip.pyd
+</code></pre>
+
+
+      
+      
+      </div>
+    </div>
+
+    
+    
+    
+      
+        
+      
+        
+      
+        
+      
+      
+    
+    
+    
+      
+      
+        
+      
+        
+      
+        
+      
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+
+    <div id="navigation">
+        
+        
+        
+          
+        
+          
+        
+          
+            
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        <a class="nav nav-prev" href="/documentation/developer/architecture"> <i class="fa fa-chevron-left"></i></a>
+        <a class="nav nav-next" href="/documentation/release" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+    </div>
+
+    </section>
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="https://quantumprayertimes.github.io/documentation/js/clipboard.min.js"></script>
+    <script src="https://quantumprayertimes.github.io/documentation/js/perfect-scrollbar.min.js"></script>
+    <script src="https://quantumprayertimes.github.io/documentation/js/perfect-scrollbar.jquery.min.js"></script>
+    <script src="https://quantumprayertimes.github.io/documentation/js/jquery.sticky-kit.min.js"></script>
+    <script src="https://quantumprayertimes.github.io/documentation/js/featherlight.min.js"></script>
+    <script src="https://quantumprayertimes.github.io/documentation/js/html5shiv-printshiv.min.js"></script>
+    <script src="https://quantumprayertimes.github.io/documentation/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="https://quantumprayertimes.github.io/documentation/js/modernizr.custom.71422.js"></script>
+    <script src="https://quantumprayertimes.github.io/documentation/js/learn.js"></script>
+    <script src="https://quantumprayertimes.github.io/documentation/js/hugo-learn.js"></script>
+    
+
+  </body>
+</html>
+

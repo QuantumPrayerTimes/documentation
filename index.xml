@@ -24,12 +24,22 @@ I wanted to create a complete free, open-source, fully portable and good looking
     </item>
     
     <item>
+      <title>Screenshots</title>
+      <link>https://quantumprayertimes.github.io/documentation/getting-started/screenshots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://quantumprayertimes.github.io/documentation/getting-started/screenshots/</guid>
+      <description>In this page you will find screenshots to convince you to use the application 
+                          </description>
+    </item>
+    
+    <item>
       <title>Requirements</title>
       <link>https://quantumprayertimes.github.io/documentation/getting-started/requirements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://quantumprayertimes.github.io/documentation/getting-started/requirements/</guid>
-      <description>The application has been tested on Windows 7 only but it is expected to work on Windows 8, Windows 8.1 and Windows 10.
+      <description>The application has been tested on Windows 7 and Windows 10 but it is expected to work on Windows 8 and Windows 8.1.
  Windows The application should work without any dependencies, tested on a fresh Windows 7 installation.
 You may need to run the application with administrator privileges.
   Windows 7 (x64 or x86) (optional) vcredist  Linux Not yet developed..
@@ -95,6 +105,17 @@ Please, make sure to mention the context of the issue and the steps needed to re
       
       <guid>https://quantumprayertimes.github.io/documentation/developer/architecture/</guid>
       <description>Coming soon..</description>
+    </item>
+    
+    <item>
+      <title>Build QuantumPT</title>
+      <link>https://quantumprayertimes.github.io/documentation/developer/build-msvc2015/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://quantumprayertimes.github.io/documentation/developer/build-msvc2015/</guid>
+      <description>This page shows you how to build QuantumPT application from scratch on Windows 7 using pyqtdeploy.
+ Requirements ALL packages need to be installed for 32-bits, it will work even if you have a 64-bits system.
+  Windows 7 (x64 or x86) Python 3.6.x (any version should do it, e.g 3.6.1) Qt 5.8.0 for Windows 32-bit (VS 2015, 1.0 GB) Microsoft Visual Studio 2015 Community Edition sip 4.19.2 (source) PyQt 5.</description>
     </item>
     
     <item>

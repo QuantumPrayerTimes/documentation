@@ -6,6 +6,10 @@
   </url>
   
   <url>
+    <loc>https://quantumprayertimes.github.io/documentation/getting-started/screenshots/</loc>
+  </url>
+  
+  <url>
     <loc>https://quantumprayertimes.github.io/documentation/getting-started/requirements/</loc>
   </url>
   
@@ -31,6 +35,10 @@
   
   <url>
     <loc>https://quantumprayertimes.github.io/documentation/developer/architecture/</loc>
+  </url>
+  
+  <url>
+    <loc>https://quantumprayertimes.github.io/documentation/developer/build-msvc2015/</loc>
   </url>
   
   <url>
