@@ -1,7 +1,7 @@
 ---
 title: What is QuantumPT ?
 prev: /getting-started
-next: /getting-started/requirements
+next: /getting-started/screenshots
 weight: 5
 toc: true
 ---

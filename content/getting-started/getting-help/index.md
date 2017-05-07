@@ -2,7 +2,7 @@
 title: Getting Help
 prev: /getting-started/configuration
 next: /developer
-weight: 30
+weight: 35
 toc: true
 ---
 

@@ -2,7 +2,7 @@
 title: First time configuration
 prev: /getting-started/installation
 next: /getting-started/configuration
-weight: 20
+weight: 25
 toc: true
 ---
 

@@ -2,7 +2,7 @@
 title: Installation
 prev: /getting-started/requirements
 next: /getting-started/first-run
-weight: 15
+weight: 20
 toc: true
 ---
 

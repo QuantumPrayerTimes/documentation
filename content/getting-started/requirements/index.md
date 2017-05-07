@@ -1,8 +1,8 @@
 ---
 title: Requirements
-prev: /getting-started/what-is-quantumpt
+prev: /getting-started/screenshots
 next: /getting-started/installation
-weight: 10
+weight: 15
 toc: true
 ---
 
