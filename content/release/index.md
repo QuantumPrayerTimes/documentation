@@ -1,6 +1,6 @@
 ---
 title: Release Information
-prev: /developer/architecture
+prev: /developer/build-msvc2015
 next: /release/release-notes
 chapter: true
 weight: 100

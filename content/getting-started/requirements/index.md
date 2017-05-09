@@ -6,16 +6,16 @@ weight: 15
 toc: true
 ---
 
-{{% notice info %}}
-The application has been tested on **Windows 7** only but it is
-expected to work on **Windows 8**, **Windows 8.1** and **Windows 10**.
+{{% notice tip %}}
+The application has been tested on **Windows 7** and **Windows 10** but it is
+expected to work on **Windows 8** and **Windows 8.1**.
 {{% /notice%}}
 
 #### Windows
 
 The application should work **without any dependencies**, tested on a fresh Windows 7 installation.
 
-{{% notice tip %}}
+{{% notice note %}}
 You may need to run the application with administrator privileges.
 {{% /notice%}}
 
