@@ -80,6 +80,6 @@ ___
 ![tutorial-11](https://cloud.githubusercontent.com/assets/9877335/25734314/52f4bb86-3116-11e7-8422-2495b1c08283.png?classes=shadow)
 
 
-{{% notice info %}}
+{{% notice note %}}
 Continue this tutorial to know how to configure the application.
 {{% /notice%}}
