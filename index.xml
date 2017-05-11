@@ -52,9 +52,10 @@ Mac Not yet developed..</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://quantumprayertimes.github.io/documentation/getting-started/installation/</guid>
-      <description> Windows Run the installer and follow the instructions, it is pretty straight forward.
-A detailed tutorial will be available soon..
- </description>
+      <description>Windows You can use the installer to install QuantumPT or use the portable version which is the same application without the installer.
+ Download the latest version installer Download the latest version standalone archive  Install using the installer Run the executable installer and follow the instructions.
+Install using the standalone archive Extract the archive using 7zip or zip tools provided by Windows
+To unzip the application, right click on the folder, select Extract All, and then follow the instructions.</description>
     </item>
     
     <item>
